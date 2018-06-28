@@ -1,0 +1,112 @@
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#add {
+	margin: 0px;
+	margin-top: -15px;
+	position: absolute;
+	padding: 0px;
+	position: fixed;
+	width: 300px;
+	text-align: center;
+	background: #f2f2f2;
+	height: 100%;
+	margin-left: 1px solid #e5e5e5;
+}
+#add img {
+	position: fixed;
+	height: 200px;
+	top: 50%;
+	margin-top: -100px;
+	left: 50px;
+}
+#table{
+	position: absolute;
+	left: 350px;
+	width: 60%;
+	overflow-y:inherit;
+	margin-top: 0px;
+	font-family: 'Oswald', sans-serif;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+#table p {
+	margin-top: 0px;
+	font-size: 750%;
+	border-bottom: 10px;	
+	padding: 0px;
+} 
+#table table{
+	width: 90%;
+	overflow-y: scroll;
+}
+#head td{
+	border-bottom: 1px solid #292ef7;
+}
+tr:hover {
+	background: #f4f6b7;
+}
+td {
+	padding: 3%;
+}
+h1{
+	font-size: 500%;
+}
+label {
+	font-size: 150%;
+}
+input {
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 200%;
+	padding: 2%;
+	width: 150%;
+}
+input:focus{
+	outline: none;
+}
+#action {
+	position: fixed;
+	left: 100%;
+	width: 300px;
+	margin-left: -300px;
+	height: 100%;
+	background: #f2f2f2;
+	text-align: center;
+	overflow-y: scroll;
+}
+#action img {
+	margin-top: 100px;
+	height: 200px;
+	margin-bottom: 100px;
+}
+#action img {
+	cursor: pointer;
+}
+input[type=image]{
+	position: relative;
+	width: 200px;
+}
+input[type=radio]{
+	width: 3%;
+}
+input[type=email],input[type=date]{
+	border-bottom: 1px solid #292ef7;
+}
+input[type=email]:focus,input[type=date]:focus{
+	border-bottom: 2px solid #f7eb29;
+}
+input[type=submit]{
+	width: 80%;
+	background: #3cf729;
+	color: white;
+}
+input[type=submit]:hover{
+	background: #f79d29;
+}
+input[type=submit]:focus{
+	background: #f029f7;
+}

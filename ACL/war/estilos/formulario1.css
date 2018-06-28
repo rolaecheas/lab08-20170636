@@ -1,0 +1,25 @@
+body{font-family: Arial; background-color:#18A383;box-sizing: border-box;}
+form{
+	font-size:0.8em;
+	background-color: white;
+	width: 300px;
+	margin:0 auto;
+	padding: 10px;
+	color: #999;
+	border-radius: 3px;
+}
+input, textarea{
+	outline:none;
+	border: 0;
+}
+.field{
+	border: solid 1px #ccc;
+	padding: 20px;
+	width: 280px;
+}
+.field:focus{
+	border-color: #18A383;
+}
+.center-content{
+	text-align: center;
+}
